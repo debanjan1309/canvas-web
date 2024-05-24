@@ -1,0 +1,106 @@
+.contact__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.contact__form {
+  width: 45%;
+  padding: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.contact__form input,
+.contact__form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.contact__form textarea {
+  resize: vertical;
+}
+
+.contact__form button {
+  background: var(--heading-color);
+  width: 30%;
+  margin: auto;
+  display: block;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact__form label {
+  font-weight: bold;
+}
+
+.contact__form h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact__image {
+  width: 50%;
+}
+
+.contact__image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.contact__form input,
+.contact__form textarea,
+.contact__form select {
+  /* Other styles */
+  margin-bottom: 15px;
+}
+
+.options-dropdown {
+  position: relative;
+}
+
+.options-dropdown select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  appearance: none;
+}
+
+.options-dropdown::before {
+  content: '\25BC';
+  position: relative;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.success-popup {
+  position:relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #4caf50;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+

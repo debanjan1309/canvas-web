@@ -1,0 +1,30 @@
+/* Footer.css */
+
+footer {
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding: 20px 0; /* Adjust the padding as needed */
+  }
+  
+  .footer-content {
+    max-width: 1200px; /* Set your desired max-width */
+    margin: 0 auto; /* Center the content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-top {
+    flex: 1; /* Take up remaining space */
+  }
+  
+  .footer-top h4 {
+    color: #fff; /* Set your desired heading color */
+  }
+  
+  .footer-bottom {
+    text-align: right;
+  }
+  
+  /* Add more styles as needed for your specific design */
+  
